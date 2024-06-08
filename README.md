@@ -4,7 +4,6 @@
 </p>
 
 [![File count](https://img.shields.io/github/directory-file-count/mrrhak/digital-wallet?type=file&style=flat&logo=onlyoffice&label=Files&link=https%3A%2F%2Fgithub.com%2Fmrrhak%2Fs3_file_provider)](https://github.com/mrrhak/digital-wallet)
-[![Repo size](https://img.shields.io/github/repo-size/mrrhak/digital-wallet?style=flat&logo=github&label=Repo%20size&link=https%3A%2F%2Fgithub.com%2Fmrrhak%2Fs3_file_provider)](https://github.com/mrrhak/digital-wallet)
 [![Code size](https://img.shields.io/github/languages/code-size/mrrhak/digital-wallet?logo=csharp&color=blue&label=Code%20size)](https://github.com/mrrhak/digital-wallet)
 [![Star on Github](https://img.shields.io/github/stars/mrrhak/digital-wallet.svg?style=flat&logo=github&colorB=deeppink&label=Stars)](https://github.com/mrrhak/digital-wallet)
 [![Forks on Github](https://img.shields.io/github/forks/mrrhak/digital-wallet?style=flat&label=Forks&logo=github)](https://github.com/mrrhak/digital-wallet)
@@ -42,6 +41,13 @@ This repository provides various resources to get you started with building your
 
 - This app running with NestJS and MongoDB with transactions support and Swagger UI
 - Spin up mongo cluster with docker [here](./mongo/start-replicaset.sh)
+  
+```bash
+chmod +x start-replicaset.sh
+./start-replicaset.sh
+```
+
+## Install dependencies
 
 ```bash
 $ npm install
